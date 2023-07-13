@@ -103,17 +103,23 @@
         border-radius: 50%;
       }
     }
-    .hero-container {
+    .parent {
       display: flex;
       align-items: center;
       justify-content: flex-start;
     }
     
-    .dynamic-heading {
-      font-size: 24px;
-      font-weight: bold;
-      margin-left: 10px; /* Adjust the margin as needed */
-    }
+
+.animated-typing{
+  font-weight: bold;
+  font-size: 1.86em; 
+  margin-left: -1200px;
+  background: linear-gradient(to right, #c47bd6 0%, #73cee2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}    
+
     
       
     
