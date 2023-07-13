@@ -10,10 +10,10 @@ export default function Hero() {
       <div className="animated-typing">
       <Typed
         strings={[
-          "Hello, \n I'm Mrinmay Das",
-          "Hello, \n I Love Software Development",
-          "Hello, \n I Like playing with techy gadgets",
-          "Hello, \n I am an IOT developer as well",
+          "Hello, \n I'm Mrinmay Das.",
+          "Hello, \n I Love Software Development.",
+          "Hello, \n I Like playing with techy gadgets.",
+          "Hello, \n I am an IOT developer as well.",
         ]}
         typeSpeed={150}
         backSpeed={100}
