@@ -107,13 +107,14 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      position: relative;
       margin-left: 92px;
     }
     
 
 .animated-typing{
   font-weight: bold;
-  font-size: 1.86em; 
+  font-size: 2.59em; 
   margin-left: -1399px;
   background: linear-gradient(to right, #c47bd6 0%, #73cee2 100%);
   -webkit-background-clip: text;
@@ -175,8 +176,8 @@ body #scene {
   justify-content: left;
   width: 1000px;
   height: 400px;
-  position: absolute;
-  top:0;
+  position: relative;
+  top:-160px;;
   bottom: -1000px;
   left: 0;
   right: 0;
@@ -379,7 +380,17 @@ body #scene #right-zone {
   height: 100%;
   flex-grow: 3;
 }
-    
-      
-    
-    
+ 
+
+.additional-text {
+  margin-top: 26px; /* Adjust the margin value to control the distance between the Typed component and the additional text */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateX(5%);
+  background: linear-gradient(135deg,#051937, #004d7a, #008793, #00bf72, #a8eb12);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 1.16em;
+}
+ 

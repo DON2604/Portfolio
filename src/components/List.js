@@ -9,9 +9,13 @@ export default function List() {
 
   return (
     <>
-      <div id="scene">
+    <br/>
+    <div style={{ textAlign: 'center' }}>
+    <h1 style={{ margin: '195px auto' }}>My Projects</h1>
+    </div>
+      <div id="scene" >
         <div id="left-zone">
-          <ul className="list">
+        <ul className="list"> {/* Add margin-bottom */}
             <li className="item">
               <input
                 type="radio"
@@ -143,6 +147,7 @@ export default function List() {
         <div id="middle-border"></div>
         <div id="right-zone"></div>
       </div>
+      <div style={{ height: '10px' }}></div> {/* Add spacing */}
     </>
   );
 }
